@@ -1,9 +1,9 @@
-from setuptools import setup,find_packages
+from setuptools import setup
 
 
 setup(
    name='discord_passport',
-   version='0.1',
+   version='0.2',
    description='discord-passport is easier way to create simple Oauth with Discord-API',
    license="MIT",
    long_description=open('README.md','r', encoding='utf-8').read(),

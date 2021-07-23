@@ -13,7 +13,7 @@ class Oauth2:
     def OAuth2Code(self,code):
         data = {
             'client_id': self.client_id,
-            'client_secret': self.secret_token,
+            'client_secret': self.client_secret,
             'grant_type': 'authorization_code',
             'code': code,
             'redirect_uri': self.redirect_uri
@@ -22,9 +22,8 @@ class Oauth2:
             'Content-Type': 'application/x-www-form-urlencoded'
         }
         json_data = requests.post("https://discord.com/api/oauth2/token", data=data, headers=headers)
-        if json_data["token_type"] == "Bearer":
-            self.code = json_data.json()['access_token']
-        return json_data.json()['access_token']
+        self.code = json_data.json()['access_token']
+        return json_data.json()
 
     @property
     def getUserAvatar(self):

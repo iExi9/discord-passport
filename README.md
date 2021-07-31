@@ -1,4 +1,4 @@
-# Discord-Passport v0.1
+# Discord-Passport v0.3
 ## Way to make simple Discord OAuth2
 
 ### How it work?

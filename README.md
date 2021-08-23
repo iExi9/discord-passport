@@ -3,7 +3,7 @@
 
 ### How it work?
 
-`+pip install discord-passport`
+`pip install discord-passport`
 
 # Make the Auth
 ```py
@@ -35,6 +35,6 @@ print(Oauth.getUserEmail) # Return Email like email@iexi.xyz
 print(Oauth.getUserFlags) # https://discord.com/developers/docs/resources/user#user-object-user-flags
 ```
 
-+ Any Error Contact me : iExi#0416
++ Any error contact me : iExi#0416
 
 

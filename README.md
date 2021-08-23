@@ -36,6 +36,5 @@ print(Oauth.getUserFlags) # https://discord.com/developers/docs/resources/user#u
 ```
 
 + Any Error Contact me : iExi#0416
-+ Or enter : [Developer Support](https://discord.gg/uvGN89fvFr)
 
 
